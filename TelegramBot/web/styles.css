@@ -1,200 +1,152 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    color: #fff;
-    background: linear-gradient(135deg, #2a2a2a, #1c1c1c);
+    background-color: #2c2c2c; /* Fundo preto suave */
+    color: #f0e6d2; /* Texto bege suave */
 }
 
 header {
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2em;
+    font-size: 24px;
+    color: #d4af37; /* Dourado */
 }
 
-header nav ul {
+nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    display: flex;
+    gap: 20px;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin: 0 15px;
 }
 
-header nav ul li a {
-    color: #00c4cc;
+nav ul li a {
+    color: #f0e6d2; /* Texto claro */
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    font-size: 16px;
 }
 
-header nav ul li a:hover {
-    color: #00bcd4;
-}
-
-main {
-    padding: 20px;
-    text-align: center;
+nav ul li a:hover {
+    color: #d4af37; /* Dourado no hover */
 }
 
 .section {
-    padding: 40px;
-    margin: 20px 0;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.section:hover {
-    transform: scale(1.03);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
-}
-
-.image-container {
-    margin: 20px 0;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.product-section {
-    background-color: rgba(0, 0, 0, 0.3);
     padding: 60px 20px;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    color: #fff; /* Cor do texto branco para contraste */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas para um visual mais suave */
+    max-width: 500px; /* Limita a largura do texto */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    text-align: center; /* Centraliza o texto */
+}
+
+.section h2 {
     text-align: center;
-}
-
-.product-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.product-image-container {
-    position: relative;
     margin-bottom: 20px;
+    font-size: 2.5em;
 }
 
-.product-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    animation: rotate 10s linear infinite;
+.hero-section {
+    background: url('imagens/meio.jpg') center/cover no-repeat;
+    text-align: center;
+    padding: 100px 20px;
 }
 
-@keyframes rotate {
-    0% { transform: rotateY(0deg); }
-    100% { transform: rotateY(360deg); }
+.hero-text h2 {
+    font-size: 40px;
+    color: #d4af37; /* Dourado */
 }
 
-.product-details {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+.hero-text p {
+    font-size: 20px;
+    color: #f0e6d2; /* Bege suave */
+    margin-bottom: 30px;
 }
 
-.product-details h3 {
-    margin-top: 0;
-}
-
-.product-details button {
-    background-color: #00c4cc;
+.hero-button {
+    background-color: #b22222; /* Vinho escuro */
+    padding: 10px 20px;
     color: #fff;
-    border: none;
-    padding: 15px 25px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-.product-details button:hover {
-    background-color: #00bcd4;
-    transform: scale(1.05);
+.hero-button:hover {
+    background-color: #8b0000; /* Vinho mais intenso */
 }
 
-button {
-    background-color: #00c4cc;
-    color: #fff;
-    border: none;
-    padding: 15px 25px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+.menu-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-button:hover {
-    background-color: #00bcd4;
-    transform: scale(1.05);
-}
-
-.feature-card {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
+.menu-item {
+    background-color: #3a3a3a; /* Cinza escuro */
     border-radius: 10px;
-    margin: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
 }
 
-.feature-card:hover {
-    transform: scale(1.05);
+.menu-item img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.menu-item h3 {
+    font-size: 22px;
+    color: #d4af37; /* Dourado */
+}
+
+.menu-item p {
+    color: #f0e6d2; /* Texto bege suave */
 }
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-form label {
-    margin: 10px 0 5px;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 form input, form textarea {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 5px;
-    margin-bottom: 15px;
-    font-size: 16px;
-    width: 100%;
-    max-width: 400px;
+    background-color: #333; /* Cinza escuro */
+    color: #fff;
 }
 
 form button {
-    background-color: #00c4cc;
+    background-color: #b22222; /* Vinho escuro */
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
 }
 
 form button:hover {
-    background-color: #00bcd4;
+    background-color: #8b0000; /* Vinho mais intenso */
 }
 
 footer {
@@ -202,32 +154,46 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
-
-/* Outras regras de estilo */
 
 .telegram-button {
     position: fixed;
-    top: 20px; /* Distância do topo */
-    right: 20px; /* Distância da borda direita */
-    z-index: 1000;
-}
-
-.telegram-button a {
-    display: block;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0088cc; /* Cor característica do Telegram */
+    border-radius: 50px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre a imagem e o texto */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .telegram-button img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
+    width: 50px;
+    height: 50px;
 }
 
-.telegram-button img:hover {
+.telegram-button span {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.telegram-button:hover {
     transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    background-color: #00a0e4;
+}
+
+
+
+#about p {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.2em;
+    max-width: 800px; /* Limita a largura para centralizar melhor */
+    line-height: 1.6; /* Melhora a legibilidade */
+    color: #ffffff; /* Cor do texto */
 }

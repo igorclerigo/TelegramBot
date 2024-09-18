@@ -1,84 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$$$$$$$</title>
+    <title>Restaurante Futurista</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>$$$$$$$</h1>
+        <h1>FutureEats</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#reservations">Reservas</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section id="home" class="section">
-            <div class="image-container">
-                <img src="https://via.placeholder.com/800x400" alt="Futuristic Image">
-            </div>
-            <h2>Welcome to $$$$$$$</h2>
-            <p>This is a demo of a similar site with interactive features.</p>
-            <button id="learnMoreBtn">Learn More</button>
-        </section>
-        <section id="features" class="section">
-            <h2>Features</h2>
-            <div class="feature-card">
-                <h3>Feature 1</h3>
-                <p>Details about feature 1.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Feature 2</h3>
-                <p>Details about feature 2.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Feature 3</h3>
-                <p>Details about feature 3.</p>
+        <!-- Seção Principal -->
+        <section id="home" class="section hero-section">
+            <div class="hero-text">
+                <h2>Bem-vindo ao FutureEats</h2>
+                <p>Experimente o futuro da gastronomia com pratos gourmet e tecnologia de ponta.</p>
+                <a href="#menu" class="hero-button">Explore o Cardápio</a>
             </div>
         </section>
-        <section id="product" class="section product-section">
-            <h2>Featured Product: High-End Graphics Card</h2>
-            <div class="product-container">
-                <div class="product-image-container">
-                    <img src="https://via.placeholder.com/600x400" alt="3D Graphics Card" class="product-image">
+
+        <!-- Seção de Cardápio -->
+        <section id="menu" class="section">
+            <h2>Nosso Cardápio</h2>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="imagens/salada.png" alt="Prato 1">
+                    <h3>Salada Futurista</h3>
+                    <p>Ingredientes orgânicos com um toque de gastronomia molecular.</p>
+                    <p><strong>R$ 12,99</strong></p>
                 </div>
-                <div class="product-details">
-                    <h3>Ultimate Graphics Card XYZ</h3>
-                    <p>Experience unparalleled gaming performance with the Ultimate Graphics Card XYZ. Equipped with the latest technology and high-speed memory, this card is designed to elevate your gaming and creative experiences.</p>
-                    <p><strong>Price:</strong> $499.99</p>
-                    <button>Buy Now</button>
+                <div class="menu-item">
+                    <img src="imagens/carne.png" alt="Prato 2">
+                    <h3>Bife Espacial</h3>
+                    <p>Grelhado à perfeição, temperado com especiarias de toda a galáxia.</p>
+                    <p><strong>R$ 29,99</strong></p>
+                </div>
+                <div class="menu-item">
+                    <img src="imagens/torta.png" alt="Prato 3">
+                    <h3>Sobremesa Galáctica</h3>
+                    <p>Uma doçura que está fora deste mundo.</p>
+                    <p><strong>R$ 9,99</strong></p>
                 </div>
             </div>
         </section>
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <form id="contactForm">
-                <label for="name">Name:</label>
+
+        <!-- Seção de Reservas -->
+        <section id="reservations" class="section">
+            <h2>Faça uma Reserva</h2>
+            <form id="reservationForm">
+                <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
+                <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Horário:</label>
+                <input type="time" id="time" name="time" required>
+                <label for="guests">Número de Convidados:</label>
+                <input type="number" id="guests" name="guests" required min="1" max="10">
+                <button type="submit">Reservar Agora</button>
+            </form>
+        </section>
+
+        <!-- Seção Sobre Nós -->
+        <section id="about" class="section">
+            <h2>Sobre Nós</h2>
+            <p>No FutureEats, combinamos expertise culinária com design futurista. Nossa missão é trazer uma experiência gastronômica que parece saída de um filme de ficção científica. Junte-se a nós e saboreie o futuro!</p>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contact" class="section">
+            <h2>Entre em Contato</h2>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">Send</button>
+                <button type="submit">Enviar</button>
             </form>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 $$$$$$$. All rights reserved.</p>
+        <p>&copy; 2024 FutureEats. Todos os direitos reservados.</p>
     </footer>
 
-    <!-- Botão do Telegram -->
     <div class="telegram-button">
         <a href="https://t.me/CSharpHelperBot" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Telegram_logo.svg" alt="Telegram Bot">
+            <img src="imagens/bot.png" alt="Telegram Bot">
+            <span>Fale Conosco no Telegram</span>
         </a>
     </div>
+    
 
     <script src="script.js"></script>
 </body>
