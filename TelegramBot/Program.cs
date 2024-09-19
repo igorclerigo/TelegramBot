@@ -9,34 +9,35 @@ class Program
     private static readonly string BotToken = "7416280107:AAFSIX8a3T483eG80gr8WytJCvmCCEXa96g";
     private static TelegramBotClient botClient;
 
-    // Dicionários para perguntas e respostas
     private static readonly Dictionary<int, string> Perguntas = new Dictionary<int, string>
-    {
-        { 1, "Horários de atendimento" },
-        { 2, "Suporte técnico" },
-        { 3, "Sede da empresa" },
-        { 4, "Produtos" },
-        { 5, "Política de devolução" },
-        { 6, "Formas de pagamento" },
-        { 7, "Acompanhar meu pedido" },
-        { 8, "Frete grátis" },
-        { 9, "Programa de fidelidade" },
-        { 10, "Cadastrar na newsletter" }
-    };
+{
+    { 1, "Horários de funcionamento" },
+    { 2, "Cardápio de comidas futuristas" },
+    { 3, "Localização do restaurante" },
+    { 4, "Formas de pagamento" },
+    { 5, "Política de entregas com drones" },
+    { 6, "Reservas para jantares espaciais" },
+    { 7, "Acompanhamento do pedido" },
+    { 8, "Benefícios do programa de fidelidade galáctico" },
+    { 9, "Frete para Marte e outros planetas" },
+    { 10, "Assinar o boletim de novidades cósmicas" }
+};
+
 
     private static readonly Dictionary<string, string> Respostas = new Dictionary<string, string>
-    {
-        { "horários de atendimento", "Nossos horários de atendimento são de segunda a sexta-feira, das 9h às 18h. Estamos fechados aos sábados e domingos." },
-        { "suporte técnico", "Você pode entrar em contato com nosso suporte técnico pelo e-mail suporte@empresa.com.br ou pelo telefone (21) 1234-5678." },
-        { "sede da empresa", "A sede da nossa empresa está localizada na Rua Exemplo, 123, Bairro, Cidade, Estado, CEP 12345-678." },
-        { "produtos", "Oferecemos uma ampla gama de produtos, incluindo [listar alguns produtos principais]. Para ver a lista completa, visite nosso site em www.empresa.com.br." },
-        { "política de devolução", "Sim, temos uma política de devolução de 30 dias. Para mais detalhes, consulte nossa política de devolução em nosso site ou entre em contato com o suporte." },
-        { "formas de pagamento", "Aceitamos pagamentos por cartão de crédito, débito, boleto bancário e transferência bancária. Confira mais opções durante o processo de compra em nosso site." },
-        { "acompanhar meu pedido", "Após o envio, você receberá um e-mail com o código de rastreamento do seu pedido. Você pode acompanhar o status do seu pedido no nosso site usando o código de rastreamento." },
-        { "frete grátis", "Oferecemos frete grátis para pedidos acima de R$200. Para pedidos abaixo desse valor, o frete será calculado com base no endereço de entrega." },
-        { "programa de fidelidade", "Sim, temos um programa de fidelidade que oferece benefícios exclusivos para nossos clientes. Saiba mais sobre o programa e como participar em nosso site." },
-        { "cadastrar na newsletter", "Você pode se cadastrar na nossa newsletter visitando o site e preenchendo o formulário de inscrição na seção de notícias ou no rodapé da página." }
-    };
+{
+    { "horários de funcionamento", "Nosso restaurante está aberto todos os dias, 24 horas por dia, com robôs prontos para atendê-lo a qualquer momento!" },
+    { "cardápio de comidas futuristas", "Nosso cardápio inclui pratos como 'Espaguete Intergaláctico', 'Hambúrguer de Nanotecnologia' e 'Salada de Algas Alienígenas'. Confira o menu completo no nosso site futurista!" },
+    { "localização do restaurante", "Estamos localizados na base orbital, Plataforma Alpha-7, mas você pode fazer um tour virtual no nosso site." },
+    { "formas de pagamento", "Aceitamos pagamentos com criptomoedas, créditos galácticos e transferência via NeuralNet. Para outras opções, consulte nosso portal de pagamentos." },
+    { "política de entregas com drones", "Nossos drones autônomos entregam sua refeição onde quer que você esteja, incluindo naves espaciais e estações orbitais. Frete grátis para distâncias até 10.000 km!" },
+    { "reservas para jantares espaciais", "Para reservar um jantar sob as estrelas, acesse nosso sistema de reservas interplanetário ou ligue para nosso assistente robótico." },
+    { "acompanhamento do pedido", "Rastreie seu pedido em tempo real com nossa tecnologia de holograma 3D. Basta usar o código fornecido ao finalizar seu pedido." },
+    { "benefícios do programa de fidelidade galáctico", "Nosso programa oferece viagens interestelares e descontos em alimentos de outras galáxias! Participe agora e acumule créditos cósmicos!" },
+    { "frete para marte e outros planetas", "Oferecemos entregas para Marte e outras colônias espaciais por um valor adicional. O prazo de entrega varia conforme a localização." },
+    { "assinar o boletim de novidades cósmicas", "Cadastre-se na nossa newsletter para receber atualizações sobre novos pratos interplanetários e eventos espaciais exclusivos!" }
+};
+
 
     private static HashSet<long> usuariosQueIniciaram = new HashSet<long>();
 

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Igor\\source\\repos\\TelegramBot\\",
+  "WorkspaceRootPath": "C:\\Users\\Igor\\Documents\\GitHub\\TelegramBot\\TelegramBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73716324-E8D6-40EE-AB2B-86AE22D74EFB}|TelegramBot.csproj|c:\\users\\igor\\source\\repos\\telegrambot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73716324-E8D6-40EE-AB2B-86AE22D74EFB}|TelegramBot.csproj|c:\\users\\igor\\documents\\github\\telegrambot\\telegrambot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73716324-E8D6-40EE-AB2B-86AE22D74EFB}|TelegramBot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\TelegramBot\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\Documents\\GitHub\\TelegramBot\\TelegramBot\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\TelegramBot\\Program.cs",
+              "ToolTip": "C:\\Users\\Igor\\Documents\\GitHub\\TelegramBot\\TelegramBot\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T19:54:14.408Z",
               "EditorCaption": ""
