@@ -1,0 +1,16 @@
+linha 10 -- botClient é um objeto da classe TelegramBotClient
+	linha 45 -- inicia uma nova instancia do bot, usando o token do bot, armazenado na variável BotToken
+
+linha 11 -- HashSet estrutura de dados para guardar id do usuário de forma temporária
+	linha 68 -- Verifica se o usuário já iniciou uma interação. Caso não tenha, ele envia a lista de perguntas ao usuário.
+		linha 89 -- envia mensagem ao usuario com a lista se for novo usuário ou quando da /ajuda
+
+
+linha 75 -- Verifica se o usuário digitou o comando /ajuda. Se sim, envia a lista de perguntas novamente.
+
+linha 92 - o loop foreach percorre o dicionário Perguntas e manda junto com a mensagem de boas vindas 
+
+linha 104 - o metodo processarperguntapornumero recebe a resposta do usuário e checa se o numero consta no dicionario
+	106 - o if do tryparse é pra tentar converter o msg do usuario em número (int)
+	108 - ta acessando a mensagem (valor) corresponde ao numero, se ele existir no dicionario perguntas
+	109 - Depois que a variável chavePergunta contém a pergunta em minúsculas, o código verifica se essa chave existe no dicionário Respostas:
