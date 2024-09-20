@@ -1,0 +1,30 @@
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\bin\Debug\net6.0\appsettings.json
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\bin\Debug\net6.0\Site restaurante.staticwebassets.runtime.json
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\bin\Debug\net6.0\Site restaurante.exe
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\bin\Debug\net6.0\Site restaurante.deps.json
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\bin\Debug\net6.0\Site restaurante.runtimeconfig.json
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\bin\Debug\net6.0\Site restaurante.dll
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\bin\Debug\net6.0\Site restaurante.pdb
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.AssemblyInfoInputs.cache
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.AssemblyInfo.cs
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.csproj.CoreCompileInputs.cache
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.RazorAssemblyInfo.cache
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.RazorAssemblyInfo.cs
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\staticwebassets\msbuild.Site restaurante.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\staticwebassets\msbuild.build.Site restaurante.props
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Site restaurante.props
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Site restaurante.props
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\scopedcss\bundle\Site restaurante.styles.css
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\scopedcss\projectbundle\Site restaurante.bundle.scp.css
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.dll
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\refint\Site restaurante.dll
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.pdb
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\Site restaurante.genruntimeconfig.cache
+C:\Users\62127702024.2\Documents\GitHub\TelegramBot\Site restaurante\obj\Debug\net6.0\ref\Site restaurante.dll
